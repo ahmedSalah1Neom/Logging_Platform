@@ -1,0 +1,9 @@
+2024-01-29T18:36:08.564+08:00  INFO 19361 --- [nio-8080-exec-1] com.mkyong.HelloController  : Info level - Hello Logb
+2024-01-29T18:36:08.564+08:00 ERROR 19361 --- [nio-8080-exec-1] com.mkyong.HelloController  : Error level - Hello Logback
+2024-01-30T13:24:20.682+08:00  INFO  ... com.mkyong.HelloController : Info level - Hello Logback mkyong
+2024-01-30T13:24:20.684+08:00 ERROR  ... com.mkyong.HelloController : Error level - Hello Logback mkyong
+2024-01-29T18:36:08.564+08:00  INFO 19361 --- [nio-8080-exec-1] com.mkyong.HelloController  : Info level - Hello Logb
+2024-01-29T18:36:08.564+08:00 ERROR 19361 --- [nio-8080-exec-1] com.mkyong.HelloController  : Error level - Hello Logback
+2024-01-30T13:24:20.682+08:00  INFO  ... com.mkyong.HelloController : Info level - Hello Logback mkyong
+2024-01-30T13:24:20.684+08:00 ERROR  ... com.mkyong.HelloController : Error level - Hello Logback mkyong
+2024-01-29T18:36:08.564+08:00  INFO 19361 --- [nio-8080-exec-1] com.mkyong.HelloController  : Info level - Hello Logb
