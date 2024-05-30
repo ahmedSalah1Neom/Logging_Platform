@@ -4,7 +4,7 @@
 ELK with Filebeat by Docker-compose - Simple &amp; Easy way to file logging
 
 ## Work flow
-- mylog -> filebeat -> logstash -> elasticsearch <- kibana
+- mylog -> filebeat -> logstash -> elasticsearch -> kibana
 
 ## Usage
 
@@ -23,8 +23,8 @@ sudo apt-get install docker-compose
 
 2. Git clone this repository
 ```
-git clone https://github.com/gnokoheat/elk-with-filebeat-by-docker-compose
-cd elk-with-filebeat-by-docker-compose/
+git clone https://github.com/ahmedSalah1Neom/Logging_Platform.git
+cd Logging_Platform
 ```
 
 3. Set to making your log file into 'mylog' folder and change log index template.
