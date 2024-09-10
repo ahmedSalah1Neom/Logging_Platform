@@ -22,6 +22,7 @@ services:
       options:
         max-size: "10m"
         max-file: "50"
+
   kibana:
     container_name: kibana
     image: kibana:7.17.18
@@ -43,6 +44,7 @@ services:
       options:
         max-size: "10m"
         max-file: "50"
+
   logstash:
     container_name: logstash
     image: logstash:7.17.18
@@ -67,6 +69,7 @@ services:
       options:
         max-size: "10m"
         max-file: "50"
+
   filebeat:
     user: root
     container_name: filebeat
@@ -78,7 +81,7 @@ services:
     volumes:
       - /var/run/docker.sock:/host_docker/docker.sock
       - /var/lib/docker:/host_docker/var/lib/docker
-      - ./mnt/nuxeo-server-tomcat-11.5-SNAPSHOT/log:/usr/share/filebeat/mylog
+      - /mnt/nuxeo-server-tomcat-11.5-SNAPSHOT/log/server.log:/usr/share/filebeat/mylog/server.log
       - ./filebeat.yml:/usr/share/filebeat/filebeat.yml
     command: ["--strict.perms=false"]
     ulimits:
